@@ -1,0 +1,88 @@
+@media screen and (max-width: 418px){
+    /* navbar */
+    #Navbar{
+        flex-direction: column;
+    }
+    #Navbar>*{
+        width: 150px;
+    }
+    #navbar-name>*{
+        display: none;
+    }
+    #navbar-project{
+        border: none;
+    }
+    
+    /* thông tin cá nhân */
+    #information{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    background: none;
+    }
+    #information-CO{
+    padding: 50px 10px;
+    background-color: #F5F5F5;
+    }
+    #information-PI{
+    padding: 50px 10px;
+    grid-template-columns: 1fr 2fr ;
+    background-color: #F0F0F0;
+    }
+    #information-PI>*{
+      margin: 10px;
+    }
+    #information-PI>h1{
+        margin-bottom: 30px;
+    }
+     /* thông tin nghề nghiệp */
+    #career-information{
+        grid-template-columns: 100%;
+        justify-self: start;
+    }
+    #certificate-prize>h1{
+        grid-column: 1/1;
+    }
+    /* chứng chỉ - giải thưởng */
+    .certificate-prize-item{
+        flex-direction: column;
+    }
+     /* chứng chỉ - giải thưởng */
+     #certificate-prize{
+        grid-template-columns: 100%;
+    }
+    .certificate-prize-item{
+        flex-direction: column;  
+        justify-self: center;    
+    }
+    .certificate-prize-item>img{
+        height: auto;
+        width: 80vw;
+    }
+    #img-even-number{
+        padding: 0px;
+    }
+    
+    /* dự án */
+    #project-container{
+        grid-template-columns: 100%;
+        justify-content: start;
+    }
+    #project-container>h1{
+        grid-column: 1/1;
+    }
+    .project-item{
+        padding-top: 30px;
+    }
+    #project-container{
+        grid-template-columns: 100%;
+        justify-content: start;
+      }
+      .project-item>img{
+        width: 100%;
+      }
+      .project-content{
+        grid-template-columns: 20% 80%;
+      }
+}
