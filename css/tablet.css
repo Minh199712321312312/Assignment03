@@ -1,4 +1,4 @@
-@media screen and (max-width:992px) and (min-width:418px) {
+@media screen and (max-width:992px) and (min-width:768px) {
      /* navbar */
     #navbar-name{
       width: 40px;
@@ -9,6 +9,9 @@
     #navbar-project{
       border: none;
    }
+    #Navbar>*{
+     padding: 15px 50px;
+    }
      /* thông tin cá nhân */
 
      #information-CO{
